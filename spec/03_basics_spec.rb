@@ -13,7 +13,7 @@ end
 
 describe 'crazy stuff on strings' do
   # Reverse, upcase then removes all L, T and A.
-  # Hint: google ruby string
+  # Hint: google ruby stringe
   it 'does crazy stuff on strings' do
     expect(reverse_upcase_noLTA("Tries this at Home, Kids"))
       .to eq("SDIK ,EMOH  SIH SEIR")
